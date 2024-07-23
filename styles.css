@@ -1,0 +1,46 @@
+.container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+*{
+    font-family: "Brush Script MT",cursive;
+}
+.dishes.header{
+    color: #429176;
+    font-size: 68px;
+
+}
+
+.dishes.name{
+    font-weight: normal;
+    background-color: #649e7a;
+    font-size: 48px;
+}
+
+.dishes.link{
+    background-color: #429176;
+}
+.dishes.link:link{
+    color :aquamarine;
+    text-decoration: none;
+}
+.dishes.link:visited{
+color: antiquewhite;
+text-decoration: none;
+}
+body{
+    text-align: center;
+    background-color: #a0e78e;
+}
+ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline-block; /* or inline */
+    margin: 0;
+    padding: 0; /* adjust padding as needed */
+  }
